@@ -47,6 +47,20 @@ main {
 }
 
 /* Form */
+h2 {
+  background: #6055a5;
+  font-size: 1em;
+  font-weight: 300;
+  padding: 1em 3em;
+  line-height: 1.6em;
+  text-align: center;
+  border-radius: 0.7em;
+}
+
+h2 strong {
+  font-weight: 600;
+}
+
 /* Footer */
 .attribution {
   font-size: 11px;
