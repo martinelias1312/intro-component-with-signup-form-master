@@ -61,6 +61,11 @@ input {
     margin-bottom: 1em;
     padding: 0.5em 0 0.5em 0.8em;
     border: 1px solid $color-secondary-text-grayish-blue;
+
+    &:focus {
+        border: 1px solid $color-accent-Blue;
+        outline: none;
+    }
 }
 
 input, .btn-submit {

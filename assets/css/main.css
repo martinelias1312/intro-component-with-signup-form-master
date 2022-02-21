@@ -80,6 +80,11 @@ input {
   border: 1px solid #b9b6d3;
 }
 
+input:focus {
+  border: 1px solid #6055a5;
+  outline: none;
+}
+
 input, .btn-submit {
   border-radius: 0.3em;
 }
