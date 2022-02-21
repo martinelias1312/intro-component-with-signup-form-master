@@ -132,4 +132,49 @@ input, .btn-submit {
 }
 
 /* Media Queries */
+@media screen and (min-width: 799px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5em;
+    padding: 0 3em;
+  }
+  .wrap-text, .wrap-form {
+    width: 50%;
+  }
+  .wrap-text {
+    text-align: left;
+  }
+  .wrap-text h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  main {
+    gap: 5em;
+    padding: 0 6em;
+  }
+  .wrap-text, .wrap-form {
+    max-width: 30.84375em;
+  }
+  .wrap-text h1 {
+    font-size: 3em;
+    line-height: 1.1em;
+  }
+  footer {
+    margin-left: 8em;
+  }
+  .attribution {
+    text-align-last: left;
+  }
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,45 @@
+@media screen and (min-width: 799px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5em;
+        padding: 0 3em;
+    }   
+    
+    .wrap-text, .wrap-form {
+        width: 50%;
+    }
+
+    .wrap-text {
+        text-align: left;
+
+        h1 {
+            font-size: 2.5em;
+        }
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    main {
+        gap: 5em;
+        padding: 0 6em;
+    }   
+
+    .wrap-text, .wrap-form {
+        max-width: 30.84375em;
+    }
+
+    .wrap-text h1 {
+        font-size: 3em;
+        line-height: 1.1em;
+    }
+
+    footer {
+        margin-left: 8em;
+    }
+
+    .attribution {
+        text-align-last: left;
+    }
+}
