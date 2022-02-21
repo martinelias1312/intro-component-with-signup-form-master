@@ -81,6 +81,21 @@ input, .btn-submit {
     }
 }
 
+.terms {
+    color: $color-secondary-text-grayish-blue;
+    font-size: 0.7em;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.7em;
+    padding: 0 1.2em;
+}
+
+.terms-link {
+    color: $color-primary-red;
+    text-decoration: none;
+    font-weight: 600;
+}
+
 /* Footer */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

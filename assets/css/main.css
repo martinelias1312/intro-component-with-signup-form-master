@@ -94,6 +94,21 @@ input, .btn-submit {
   cursor: pointer;
 }
 
+.terms {
+  color: #b9b6d3;
+  font-size: 0.7em;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.7em;
+  padding: 0 1.2em;
+}
+
+.terms-link {
+  color: #ff7a7a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
 /* Footer */
 .attribution {
   font-size: 11px;
