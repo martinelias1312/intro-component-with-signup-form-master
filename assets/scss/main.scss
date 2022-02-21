@@ -10,3 +10,20 @@ body {
     background: url(/assets/images/bg-intro-mobile.png);
     background-color: $color-primary-red;
 }
+
+main {
+    margin: 5em 2em;
+}
+
+.wrap-text {
+    text-align: center;
+    line-height: 2.3em;
+
+    h1 {
+        font-size: 1.7em;
+    }
+    p {
+        font-weight: 400;
+        line-height: 1.6em;
+    }
+}

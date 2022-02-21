@@ -26,4 +26,22 @@ body {
   background: url(/assets/images/bg-intro-mobile.png);
   background-color: #ff7a7a;
 }
+
+main {
+  margin: 5em 2em;
+}
+
+.wrap-text {
+  text-align: center;
+  line-height: 2.3em;
+}
+
+.wrap-text h1 {
+  font-size: 1.7em;
+}
+
+.wrap-text p {
+  font-weight: 400;
+  line-height: 1.6em;
+}
 /*# sourceMappingURL=main.css.map */
