@@ -1,0 +1,9 @@
+@import url(/assets/css/normalize.css);
+body {
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background: url(/assets/images/bg-intro-mobile.png);
+  background-color: #ff7a7a;
+}
+/*# sourceMappingURL=main.css.map */
