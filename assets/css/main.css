@@ -55,7 +55,6 @@ h2 {
   font-weight: 300;
   line-height: 1.6em;
   text-align: center;
-  border-radius: 0.7em;
 }
 
 h2 strong {
@@ -65,11 +64,13 @@ h2 strong {
 form {
   background: #fff;
   padding: 1.5em;
+}
+
+h2, form {
   border-radius: 0.7em;
 }
 
 input {
-  color: #3e3c49;
   font-weight: 500;
   max-width: 100%;
   margin-bottom: 1em;

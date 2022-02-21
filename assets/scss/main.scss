@@ -40,8 +40,6 @@ h2 {
     line-height: 1.6em;
     text-align: center;
 
-    border-radius: 0.7em;
-
     strong {
         font-weight: 600;
     }
@@ -50,12 +48,13 @@ h2 {
 form {
     background: $color-text-main;
     padding: 1.5em;
+}
 
+h2, form {
     border-radius: 0.7em;
 }
 
 input {
-    color: $color-input-text-dark-blue;
     font-weight: 500;
     max-width: 100%;
     margin-bottom: 1em;
