@@ -68,6 +68,8 @@ form {
 
 h2, form {
   border-radius: 0.7em;
+  -webkit-box-shadow: 0 0.5em rgba(34, 34, 34, 0.15);
+          box-shadow: 0 0.5em rgba(34, 34, 34, 0.15);
 }
 
 input {
