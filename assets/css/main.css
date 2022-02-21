@@ -49,9 +49,10 @@ main {
 /* Form */
 h2 {
   background: #6055a5;
+  padding: 1em 3em;
+  margin: 4em 0 1.8em;
   font-size: 1em;
   font-weight: 300;
-  padding: 1em 3em;
   line-height: 1.6em;
   text-align: center;
   border-radius: 0.7em;
