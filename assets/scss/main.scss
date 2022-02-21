@@ -76,6 +76,7 @@ input, .btn-submit {
     width: 100%;
     padding: 1em;
     border: none;
+    box-shadow: inset 0 -0.2em transparentize(#222, 0.85);
 
     &:hover, &:focus {
         cursor: pointer;

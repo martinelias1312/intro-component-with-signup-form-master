@@ -92,6 +92,8 @@ input, .btn-submit {
   width: 100%;
   padding: 1em;
   border: none;
+  -webkit-box-shadow: inset 0 -0.2em rgba(34, 34, 34, 0.15);
+          box-shadow: inset 0 -0.2em rgba(34, 34, 34, 0.15);
 }
 
 .btn-submit:hover, .btn-submit:focus {
