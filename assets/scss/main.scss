@@ -80,6 +80,7 @@ input, .btn-submit {
 
     &:hover, &:focus {
         cursor: pointer;
+        background: lighten($color-primary-green, 20%);
     }
 }
 
