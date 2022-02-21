@@ -4,7 +4,8 @@
     "sources": [
         "../scss/main.scss",
         "../scss/_general.scss",
-        "../scss/_variables.scss"
+        "../scss/_variables.scss",
+        "../scss/_mediaQueries.scss"
     ],
     "names": [],
     "file": "main.min.css"
