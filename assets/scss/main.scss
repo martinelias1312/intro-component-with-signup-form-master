@@ -46,6 +46,41 @@ h2 {
     }
 }
 
+form {
+    background: $color-text-main;
+    padding: 1.5em;
+
+    border-radius: 0.7em;
+}
+
+input {
+    color: $color-input-text-dark-blue;
+    font-weight: 500;
+    max-width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em 0 0.5em 0.8em;
+    border: 1px solid $color-secondary-text-grayish-blue;
+}
+
+input, .btn-submit {
+    border-radius: 0.3em;
+}
+
+.btn-submit {
+    background: $color-primary-green;
+    color: $color-text-main;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    width: 100%;
+    padding: 1em;
+    border: none;
+
+    &:hover, &:focus {
+        cursor: pointer;
+    }
+}
+
 /* Footer */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
