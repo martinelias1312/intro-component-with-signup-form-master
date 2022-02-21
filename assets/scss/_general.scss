@@ -1,0 +1,12 @@
+/*
+ *	GENERAL
+ ------------------------------------------------------ */
+/* border-box */
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}

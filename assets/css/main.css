@@ -1,4 +1,24 @@
 @import url(/assets/css/normalize.css);
+/*
+ *	GENERAL
+ ------------------------------------------------------ */
+/* border-box */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
 body {
   font-size: 1em;
   font-family: "Poppins", sans-serif;
