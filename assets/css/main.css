@@ -74,7 +74,7 @@ h2, form {
 
 input {
   font-weight: 500;
-  max-width: 100%;
+  width: 100%;
   margin-bottom: 1em;
   padding: 0.5em 0 0.5em 0.8em;
   border: 1px solid #b9b6d3;
