@@ -1,4 +1,8 @@
 @media screen and (min-width: 799px) {
+    body {
+        background: url(/assets/images/bg-intro-desktop.png) $color-primary-red;
+    }
+
     main {
         display: flex;
         flex-direction: row;

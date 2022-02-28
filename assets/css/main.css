@@ -133,6 +133,9 @@ input, .btn-submit {
 
 /* Media Queries */
 @media screen and (min-width: 799px) {
+  body {
+    background: url(/assets/images/bg-intro-desktop.png) #ff7a7a;
+  }
   main {
     display: -webkit-box;
     display: -ms-flexbox;
