@@ -59,6 +59,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
+- Time - 2h:34m
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 

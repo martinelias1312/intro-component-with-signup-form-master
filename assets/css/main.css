@@ -160,6 +160,9 @@ input, .btn-submit {
 
 @media screen and (min-width: 1199px) {
   main {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 5em;
     padding: 0 6em;
   }
@@ -172,9 +175,6 @@ input, .btn-submit {
   }
   footer {
     margin-left: 8em;
-  }
-  .attribution {
-    text-align-last: left;
   }
 }
 /*# sourceMappingURL=main.css.map */
