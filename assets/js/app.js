@@ -4,16 +4,15 @@ const email = document.querySelector('.email');
 const mailFormat = 'regex';
 const inputs = document.querySelectorAll('input');
 
-form.addEventListener('submit', (event) => {
-    event.preventDefault();
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
 
     inputs.forEach(input => {
-        console.log(input.nextElementSibling);
-        if(input.value == "") {
-            input.nextElementSibling.style.display = 'block';
+        if(input.value === "") {
+            input.nextElementSibling.classList.add('error-show');
             input.nextElementSibling.innerHTML = `${input.name} cannot be empty`;
         } else {
-            input.nextElementSibling.style.display = 'none';
+            input.nextElementSibling.classList.remove('error-show');
             input.nextElementSibling.innerHTML = "";
         }
     })
