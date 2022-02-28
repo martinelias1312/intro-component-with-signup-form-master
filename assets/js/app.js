@@ -8,12 +8,20 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
 
     inputs.forEach(input => {
-        if(input.value === "") {
+        if (input.value === "") {
             input.nextElementSibling.style.display = 'block';
-        } else if (!email.value.match(mailFormat)){
-            input.nextElementSibling.style.display = 'block';
+            input.style.border = '2px solid #ff7a7a';
         } else {
             input.nextElementSibling.style.display = 'none';
+            input.style.border = '1px solid #b9b6d3';
         }
     })
+
+    if(email.value.match(mailFormat) || email.value === "") {
+        email.style.color = '#222';
+    } else {
+        email.nextElementSibling.style.display = 'block';
+        email.style.border = '2px solid #ff7a7a';
+        email.style.color = '#ff7a7a';
+    }
 });
