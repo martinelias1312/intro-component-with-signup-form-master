@@ -75,14 +75,30 @@ h2, form {
 input {
   font-weight: 500;
   width: 100%;
-  margin-bottom: 1em;
-  padding: 0.5em 0 0.5em 0.8em;
+  margin-top: 1em;
+  padding: 0.8em 0 0.8em 1.5em;
   border: 1px solid #b9b6d3;
 }
 
 input:focus {
   border: 1px solid #6055a5;
   outline: none;
+}
+
+.error-msg {
+  margin: -0.7em 0 0;
+  color: #ff7a7a;
+  text-align: right;
+  font-style: italic;
+  font-size: 0.7em;
+  display: none;
+}
+
+.error-msg::before {
+  content: url(/assets/images/icon-error.svg);
+  position: relative;
+  top: -30px;
+  right: -137px;
 }
 
 input, .btn-submit {
@@ -96,6 +112,7 @@ input, .btn-submit {
   font-weight: 500;
   width: 100%;
   padding: 1em;
+  margin-top: 1em;
   border: none;
   -webkit-box-shadow: inset 0 -0.2em rgba(34, 34, 34, 0.15);
           box-shadow: inset 0 -0.2em rgba(34, 34, 34, 0.15);

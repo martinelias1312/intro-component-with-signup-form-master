@@ -58,13 +58,29 @@ h2, form {
 input {
     font-weight: 500;
     width: 100%;
-    margin-bottom: 1em;
-    padding: 0.5em 0 0.5em 0.8em;
+    margin-top: 1em;
+    padding: 0.8em 0 0.8em 1.5em;
     border: 1px solid $color-secondary-text-grayish-blue;
 
     &:focus {
         border: 1px solid $color-accent-Blue;
         outline: none;
+    }
+}
+
+.error-msg {
+    margin: -0.7em 0 0;
+    color: $color-primary-red;
+    text-align: right;
+    font-style: italic;
+    font-size: 0.7em;
+    display: none;
+
+    &::before {
+        content: url(/assets/images/icon-error.svg);
+        position: relative;
+        top: -30px;
+        right: -137px;
     }
 }
 
@@ -80,6 +96,7 @@ input, .btn-submit {
 
     width: 100%;
     padding: 1em;
+    margin-top: 1em;
     border: none;
     box-shadow: inset 0 -0.2em transparentize(#222, 0.85);
 
